@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QBDeposit_CLI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f01944cf8b8b3b0028952726c6c5fc33d04433c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e45fcdc5921118e0a93e0d4b238d1d83ba62a3a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("QBDeposit_CLI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QBDeposit_CLI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
