@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "QBDeposit_CLI/1.0.0": {
+        "dependencies": {
+          "QBDeposit_LIB": "1.0.0"
+        },
+        "runtime": {
+          "QBDeposit_CLI.dll": {}
+        }
+      },
+      "QBDeposit_LIB/1.0.0": {
+        "runtime": {
+          "QBDeposit_LIB.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QBDeposit_CLI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QBDeposit_LIB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

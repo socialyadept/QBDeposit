@@ -1,0 +1,6 @@
+Parent ID,Child ID,Invoice Date,Invoice Amount,Bank Date,Customer,CheckAmount,Tier 2 - Chart of Account ID,Tier 2 - Chart of Account,Check Num,Comment,Tier 1 - Type,APO Status,Account Receivable
+505477342024-08-23$4,151.9131400Shareholder Distributions6185testEquityClosed$4,151.91
+505577352024-08-23$1,303.6931400Shareholder Distributions6184testEquityClosed$1,303.69
+505677362024-08-23$5,120.7331400Shareholder Distributions6168testEquityClosed$5,120.73
+514979152024-10-18$0.0147900SalesEFTtestIncomeClosed$0.01
+520379952024-12-31$270.0068000Taxes-Property126204testExpenseClosed$270.00

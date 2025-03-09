@@ -1,0 +1,13 @@
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\bin\Debug\net8.0\QBDeposit_LIB.deps.json
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\bin\Debug\net8.0\QBDeposit_LIB.dll
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\bin\Debug\net8.0\QBDeposit_LIB.pdb
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\Interop.QBFC16Lib.dll
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\QBDeposit_LIB.csproj.ResolveComReference.cache
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\QBDeposit_LIB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\QBDeposit_LIB.AssemblyInfoInputs.cache
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\QBDeposit_LIB.AssemblyInfo.cs
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\QBDeposit_LIB.csproj.CoreCompileInputs.cache
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\QBDeposit_LIB.dll
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\refint\QBDeposit_LIB.dll
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\QBDeposit_LIB.pdb
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\ref\QBDeposit_LIB.dll
