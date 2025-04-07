@@ -1,0 +1,7 @@
+# Ignore all bin directories (e.g., bin/Debug, bin/Release, etc.)
+**/bin/
+
+# Ignore all obj directories (e.g., obj/Debug, obj/Release, etc.)
+**/obj/
+
+.vs/

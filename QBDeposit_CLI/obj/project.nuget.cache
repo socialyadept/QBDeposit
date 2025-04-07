@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Iv70R+GEHHc=",
+  "dgSpecHash": "K5USl1/10y0=",
   "success": true,
   "projectFilePath": "C:\\Users\\KumailM\\source\\repos\\QBDeposit\\QBDeposit_CLI\\QBDeposit_CLI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\KumailM\\.nuget\\packages\\documentformat.openxml\\3.3.0\\documentformat.openxml.3.3.0.nupkg.sha512",
+    "C:\\Users\\KumailM\\.nuget\\packages\\documentformat.openxml.framework\\3.3.0\\documentformat.openxml.framework.3.3.0.nupkg.sha512",
+    "C:\\Users\\KumailM\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

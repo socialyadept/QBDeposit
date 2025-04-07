@@ -232,28 +232,28 @@ namespace QBDeposit_LIB
                 return;
             }
 
-            Console.WriteLine("\n===================== DEPOSIT LIST =====================");
-            Console.WriteLine(String.Format("{0,-20} {1,-15} {2,-15} {3,-15} {4,-20}",
-                "Customer", "Account", "Account Ref", "Amount", "Memo"));
-            Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine("\n========================================== DEPOSIT LIST ==========================================");
+            Console.WriteLine(String.Format("{0,-20} {1,-30} {2,-25} {3,-15} {4,-20}",
+                "Customer", "Chart of Account", "Account Ref", "Amount", "Memo"));
+            Console.WriteLine("--------------------------------------------------------------------------------------------------");
 
             double totalAmount = 0;
 
             foreach (var deposit in deposits)
             {
-                Console.WriteLine(String.Format("{0,-20} {1,-15} {2,-15} {3,-15:C} {4,-20}",
+                Console.WriteLine(String.Format("{0,-20} {1,-30} {2,-25} {3,-15:C} {4,-20}",
                     TruncateString(deposit.Customer, 19),
-                    TruncateString(deposit.ChartOfAccount, 14),
-                    TruncateString(deposit.AccountRef, 14),
+                    TruncateString(deposit.ChartOfAccount, 29),
+                    TruncateString(deposit.AccountRef, 24),
                     deposit.Amount,
                     TruncateString(deposit.ChildID, 19)));
 
                 totalAmount += deposit.Amount;
             }
 
-            Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------------------------------------------------");
             Console.WriteLine($"TOTAL: {deposits.Count} deposits       Amount: {totalAmount:C}");
-            Console.WriteLine("========================================================");
+            Console.WriteLine("==================================================================================================");
         }
 
         /// <summary>

@@ -34,3 +34,7 @@ C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_CLI\obj\Debug\net8.0\refint\QB
 C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_CLI\obj\Debug\net8.0\QBDeposit_CLI.pdb
 C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_CLI\obj\Debug\net8.0\QBDeposit_CLI.genruntimeconfig.cache
 C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_CLI\obj\Debug\net8.0\ref\QBDeposit_CLI.dll
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_CLI\obj\Debug\net8.0\QBDeposit_CLI.sourcelink.json
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_CLI\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_CLI\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_CLI\bin\Debug\net8.0\System.IO.Packaging.dll

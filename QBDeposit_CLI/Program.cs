@@ -4,7 +4,22 @@ namespace QB_Deposit
 {
     class Program
     {
-        private static string csvFilePath = "../credit-nonvendor.csv";
+        // Update the file path to point to your Excel file
+        private static readonly string excelFilePath = GetExcelFilePath();
+
+        private static string GetExcelFilePath()
+        {
+            // Get the current directory (e.g., bin\Debug)
+            string currentDir = Environment.CurrentDirectory;
+
+            // Navigate up two levels to reach the QBDeposit folder
+            string projectDir = Directory.GetParent(Directory.GetParent(Directory.GetParent(currentDir).FullName).FullName).FullName;
+
+            // Combine the project directory with the file name
+            string computedFilePath = Path.Combine(projectDir, "credit-nonvendor.xlsx");
+            Console.WriteLine("Computed file path: " + computedFilePath);
+            return computedFilePath;
+        }
 
         static void Main(string[] args)
         {
@@ -26,19 +41,19 @@ namespace QB_Deposit
                 Console.WriteLine("\n3. Querying QuickBooks deposits after adding one record...");
                 QueryDeposits();
 
-                // 4. Add all records from CSV file
-                Console.WriteLine("\n4. Adding all deposits from CSV file...");
-                if (File.Exists(csvFilePath))
+                // 4. Add all records from Excel file
+                Console.WriteLine("\n4. Adding all deposits from Excel file...");
+                if (File.Exists(excelFilePath))
                 {
-                    AddAllDepositsFromCsv();
+                    AddAllDepositsFromExcel();
                 }
                 else
                 {
-                    throw new Exception("CSV File not found");
+                    throw new Exception("Excel File not found");
                 }
 
                 // 5. Query all the results
-                Console.WriteLine("\n5. Querying all QuickBooks deposits after adding CSV records...");
+                Console.WriteLine("\n5. Querying all QuickBooks deposits after adding Excel records...");
                 QueryDeposits();
             }
             catch (Exception ex)
@@ -60,7 +75,7 @@ namespace QB_Deposit
             {
                 ChildID = "0001",
                 Amount = 1000.00,
-                ChartOfAccount = "test account list", // Checking Account
+                ChartOfAccount = "Checking", // Checking Account
                 AccountRef = "Sales", // Income Account
                 Customer = "Misc Income",
             };
@@ -115,19 +130,19 @@ namespace QB_Deposit
         }
 
         /// <summary>
-        /// Adds all deposits from the CSV file to QuickBooks
+        /// Adds all deposits from the Excel file to QuickBooks
         /// </summary>
-        private static void AddAllDepositsFromCsv()
+        private static void AddAllDepositsFromExcel()
         {
-            List<DepositRecord> records = CsvParser.ParseCsvFile(csvFilePath);
+            List<DepositRecord> records = ExcelParser.ParseExcelFile(excelFilePath);
 
             if (records.Count == 0)
             {
-                Console.WriteLine("No records found in CSV file or error parsing file.");
+                Console.WriteLine("No records found in Excel file or error parsing file.");
                 return;
             }
 
-            Console.WriteLine($"Found {records.Count} records in CSV file.");
+            Console.WriteLine($"Found {records.Count} records in Excel file.");
 
             DepositAdd depositAdd = new DepositAdd();
             try

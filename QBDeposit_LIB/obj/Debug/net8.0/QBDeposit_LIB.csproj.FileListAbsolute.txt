@@ -11,3 +11,4 @@ C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\QBDeposit
 C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\refint\QBDeposit_LIB.dll
 C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\QBDeposit_LIB.pdb
 C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\ref\QBDeposit_LIB.dll
+C:\Users\KumailM\source\repos\QBDeposit\QBDeposit_LIB\obj\Debug\net8.0\QBDeposit_LIB.sourcelink.json
